@@ -1,0 +1,42 @@
+---------- Date: 2016-08-31 10:26:40 ~ IP : 81.196.107.209 ----------
+REQUEST URI : /index.php?route=product/product&path=60_64&product_id=101
+MOD DETAILS:
+   modFile   : /var/www/html/artiszone.com/vqmod/xml/tshirtecommerce.xml
+   id        : tshirtecommerce
+   version   : 4.0.0
+   vqmver    : 2.3.2
+   author    : Tshirtecommerce Team
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $('#button-cart').on('click', function() {
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-31 13:50:51 ~ IP : 81.196.107.209 ----------
+REQUEST URI : /index.php?route=product/product&path=78_79&product_id=148
+MOD DETAILS:
+   modFile   : /var/www/html/artiszone.com/vqmod/xml/tshirtecommerce.xml
+   id        : tshirtecommerce
+   version   : 4.0.0
+   vqmver    : 2.3.2
+   author    : Tshirtecommerce Team
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $('#button-cart').on('click', function() {
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-31 16:23:00 ~ IP : 81.196.107.209 ----------
+REQUEST URI : /index.php?route=product/product&path=78_79&product_id=148
+MOD DETAILS:
+   modFile   : /var/www/html/artiszone.com/vqmod/xml/tshirtecommerce.xml
+   id        : tshirtecommerce
+   version   : 4.0.0
+   vqmver    : 2.3.2
+   author    : Tshirtecommerce Team
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $('#button-cart').on('click', function() {
+----------------------------------------------------------------------
+
+

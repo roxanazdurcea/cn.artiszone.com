@@ -1,0 +1,28 @@
+---------- Date: 2016-08-30 10:58:14 ~ IP : 180.76.15.142 ----------
+REQUEST URI : /index.php?route=product/product&path=78_96&sort=pd.name&order=DESC&product_id=165
+MOD DETAILS:
+   modFile   : /var/www/clients/client1/web24/web/vqmod/xml/tshirtecommerce.xml
+   id        : tshirtecommerce
+   version   : 4.0.0
+   vqmver    : 2.3.2
+   author    : Tshirtecommerce Team
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <button type="button" id="button-cart"
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-08-30 14:18:02 ~ IP : 180.76.15.22 ----------
+REQUEST URI : /index.php?route=product/product&path=60_64&product_id=142&limit=25
+MOD DETAILS:
+   modFile   : /var/www/html/artiszone.com/vqmod/xml/tshirtecommerce.xml
+   id        : tshirtecommerce
+   version   : 4.0.0
+   vqmver    : 2.3.2
+   author    : Tshirtecommerce Team
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <button type="button" id="button-cart"
+----------------------------------------------------------------------
+
+

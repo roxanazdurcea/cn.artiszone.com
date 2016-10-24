@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Show products from sub-categories while browsing a parent category. Show 3 levels subcategories. For OpenCart version 2.2.0.0</id>
+	<version>2.0.0</version>
+	<vqmver>2.6.1</vqmver>
+	<author>Ing. Martin Trubíni - www.hypertext.sk - info@hypertext.sk</author>
+
+	<file name="catalog/controller/product/category.php">
+		<operation>
+			<search position="after"><![CDATA['filter_category_id' => $category_id,]]></search>
+			<add><![CDATA[				'filter_sub_category' => true,]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/controller/module/category.php">
+		<operation>
+			<search position="replace" offset="30"><![CDATA[$categories = $this->model_catalog_category->getCategories(0);]]></search>
+			<add><![CDATA[
+		if (isset($parts[2])) {
+			$data['subchild_id'] = $parts[2];
+		} else {
+			$data['subchild_id'] = 0;
+		}
+		
+		$categories_1 = $this->model_catalog_category->getCategories(0);
+
+		foreach ($categories_1 as $category_1) {
+			$level_2_data = array();
+
+			if ($category_1['category_id'] == $data['category_id']) {
+				$categories_2 = $this->model_catalog_category->getCategories($category_1['category_id']);
+
+				foreach($categories_2 as $category_2) {
+					$filter_2_data = array('filter_category_id' => $category_2['category_id'], 'filter_sub_category' => true);
+					
+					$level_3_data = array();
+					$categories_3 = $this->model_catalog_category->getCategories($category_2['category_id']);
+					
+					foreach($categories_3 as $category_3) {
+						$filter_3_data = array('filter_category_id' => $category_3['category_id'], 'filter_sub_category' => true);
+
+						$level_3_data[] = array(
+							'category_id' => $category_3['category_id'],
+							'name' => $category_3['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_3_data) . ')' : ''),
+							'href' => $this->url->link('product/category', 'path=' . $category_1['category_id'] . '_' . $category_2['category_id'] . '_' . $category_3['category_id'])
+						);
+					}
+
+					$level_2_data[] = array(
+						'category_id' => $category_2['category_id'],
+						'name' => $category_2['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_2_data) . ')' : ''),
+						'children' => $level_3_data,
+						'href' => $this->url->link('product/category', 'path=' . $category_1['category_id'] . '_' . $category_2['category_id'])
+					);
+				}
+			}
+
+			$filter_1_data = array(
+				'filter_category_id'  => $category_1['category_id'],
+				'filter_sub_category' => true
+			);
+
+			$data['categories'][] = array(
+				'category_id' => $category_1['category_id'],
+				'name'        => $category_1['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_1_data) . ')' : ''),
+				'children'    => $level_2_data,
+				'href'        => $this->url->link('product/category', 'path=' . $category_1['category_id'])
+			);
+		}
+		]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/*/template/module/category.tpl">
+		<operation>
+			<search position="replace" offset="17"><![CDATA[<div class="list-group">]]></search>
+			<add><![CDATA[
+<div class="list-group">
+  <?php foreach ($categories as $category_1) { ?>
+  <?php if ($category_1['category_id'] == $category_id) { ?>
+  <a href="<?php echo $category_1['href']; ?>" class="list-group-item active"><?php echo $category_1['name']; ?></a>
+  <?php if ($category_1['children']) { ?>
+  <?php foreach ($category_1['children'] as $category_2) { ?>
+  <?php if ($category_2['category_id'] == $child_id) { ?>
+  <a href="<?php echo $category_2['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;- <?php echo $category_2['name']; ?></a>
+  <?php if ($category_2['children']) { ?>
+    <?php foreach ($category_2['children'] as $category_3) { ?>
+	<?php if ($category_3['category_id'] == $subchild_id) { ?>
+    <a href="<?php echo $category_3['href']; ?>" class="list-group-item active">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <?php echo $category_3['name']; ?></a>
+	<?php } else { ?>
+	<a href="<?php echo $category_3['href']; ?>" class="list-group-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <?php echo $category_3['name']; ?></a>
+	<?php } ?>
+    <?php } ?>
+  <?php } ?>
+  <?php } else { ?>
+  <a href="<?php echo $category_2['href']; ?>" class="list-group-item">&nbsp;&nbsp;&nbsp;- <?php echo $category_2['name']; ?></a>
+  <?php } ?>
+  <?php } ?>
+  <?php } ?>
+  <?php } else { ?>
+  <a href="<?php echo $category_1['href']; ?>" class="list-group-item"><?php echo $category_1['name']; ?></a>
+  <?php } ?>
+  <?php } ?>
+</div>
+		]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/*/template/product/category.tpl">
+		<operation>
+			<search position="replace" offset="25"><![CDATA[<?php if ($categories) { ?>]]></search>
+			<add><![CDATA[]]></add>
+		</operation>
+	</file>
+
+</modification>

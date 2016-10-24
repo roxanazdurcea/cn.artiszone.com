@@ -1,0 +1,130 @@
+<modification>
+	<id>Opencart core file modifications for adding coupon support into the checkout sequence</id>
+	<version>210.1</version>
+	<vqmver>2.5.1</vqmver>
+	<author>Original by mhccorp.com, 1.5.2+ and 2.x versions by Qphoria</author>
+
+	<file name="catalog/controller/checkout/payment_method.php,catalog/controller/checkout/payment_method.php" error="log">
+		<operation info="add additional language variables to the payment controller">
+			<search position="after"><![CDATA[data['text_comments']]]></search>
+			<add><![CDATA[
+		$data['entry_payment_coupon'] = $this->language->get('entry_payment_coupon');
+		$data['text_payment_coupon'] = $this->language->get('text_payment_coupon');
+		$data['text_payment_coupon_success'] = $this->language->get('text_payment_coupon_success');
+		$data['button_coupon'] = $this->language->get('button_coupon');
+		$data['coupon'] = isset($this->session->data['coupon']) ? $this->session->data['coupon'] : '';
+		if (isset($this->data)) { $this->data = array_merge($this->data, $data); } // 15x backwards compatibility
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/controller/checkout/checkout.php">
+		<operation info="since not all versions of OpenCart have a total controller, add our own function so we always know it is there.">
+			<search position="before"><![CDATA[function index]]></search>
+			<add><![CDATA[
+
+		// Coupon on Checkout custom coupon function
+		// Note that this may cause some coupon mods that alter the existing coupon function not to work
+		public function checkout_coupon() {
+			$this->load->language('checkout/checkout');
+
+			$json = array();
+
+			$this->load->model('total/coupon');
+
+			if (isset($this->request->post['coupon'])) {
+				$coupon = $this->request->post['coupon'];
+			} else {
+				$coupon = '';
+			}
+
+			if (method_exists($this->model_total_coupon, 'getCoupon')) {
+				$coupon_info = $this->model_total_coupon->getCoupon($coupon);
+			} else {
+				$this->load->model('checkout/coupon');
+				$coupon_info = $this->model_checkout_coupon->getCoupon($coupon);
+			}
+
+			if (empty($this->request->post['coupon'])) {
+				$json['error'] = $this->language->get('error_empty');
+
+				unset($this->session->data['coupon']);
+			} elseif ($coupon_info) {
+				$this->session->data['coupon'] = $this->request->post['coupon'];
+
+				$this->session->data['success'] = $this->language->get('text_payment_coupon_success');
+
+				$json['redirect'] = $this->url->link('checkout/cart');
+			} else {
+				$json['error'] = $this->language->get('error_coupon');
+			}
+
+			$this->response->addHeader('Content-Type: application/json');
+			$this->response->setOutput(json_encode($json));
+		}
+		]]></add>
+		</operation>
+
+	</file>
+
+	<file name="catalog/language/*/checkout/checkout.php">
+		<operation>
+			<search position="after"><![CDATA[$_['text_comments']]]></search>
+			<add><![CDATA[
+$_['entry_payment_coupon']           = 'Enter your code (if available) and click "Apply Coupon"';
+$_['text_payment_coupon']            = 'Discount Coupon Code:';
+$_['text_payment_coupon_success']    = 'Your discount coupon has been successfuly applied to your order. You will see it in the next checkout step';
+$_['error_coupon']  				 = 'Warning: Coupon is either invalid, expired or reached its usage limit!';
+$_['error_empty']   				 = 'Warning: Please enter a coupon code!';
+$_['button_coupon']                  = 'Apply Coupon';
+			]]></add>
+		</operation>
+	</file>
+	<file path="catalog/view/theme/*/template/checkout/" name="payment_method.tpl,payment.tpl" error="log">
+		<operation>
+			<search position="after" offset="2"><![CDATA[<textarea name="comment"]]></search>
+			<add><![CDATA[
+<div id="coupon">
+  <b><?php echo $entry_payment_coupon; ?></b><br /><br />
+  <?php echo $text_payment_coupon; ?>&nbsp;
+  <input type="text" name="coupon" value="<?php echo $coupon; ?>" />
+  &nbsp;<input type="button" id="button-coupon" class="btn btn-primary" value="<?php echo $button_coupon; ?>" />
+</div><br/>
+			]]></add>
+		</operation>
+		<operation>
+			<search position="bottom"><![CDATA[<script type="text/javascript"><!--]]></search>
+			<add><![CDATA[
+<script type="text/javascript"><!--
+$('#button-coupon').bind('click', function() {
+	$.ajax({
+		type: 'POST',
+		//url: 'index.php?route=total/coupon/coupon',
+		url: 'index.php?route=checkout/checkout/checkout_coupon',
+		data: $('#coupon :input'),
+		dataType: 'json',
+		beforeSend: function() {
+			$('#button-coupon').attr('disabled', true);
+			$('#checkout-coupon-loading').remove();
+			$('#button-coupon').after(' <i id="checkout-coupon-loading" class="fa fa-spinner fa-spin"></i>');
+		},
+		complete: function() {
+			$('#button-coupon').attr('disabled', false);
+			$('#checkout-coupon-loading').remove();
+		},
+		success: function(json) {
+			if (json['error']) {
+				alert( json['error'] );
+			} else {
+				//$("input[name=coupon]").val("");
+				alert( "<?php echo $text_payment_coupon_success; ?>" );
+			}
+		}
+	});
+});
+//--></script>
+			]]></add>
+		</operation>
+	</file>
+
+</modification>

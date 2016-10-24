@@ -1,0 +1,270 @@
+<?php echo $header; ?>
+<div class="container">
+  <ul class="breadcrumb">
+    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+    <?php } ?>
+  </ul>
+  <?php if ($error_warning) { ?>
+  <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?>
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+  <?php } ?>
+  <div class="row"><?php echo $column_left; ?>
+    <?php if ($column_left && $column_right) { ?>
+    <?php $class = 'col-sm-6'; ?>
+    <?php } elseif ($column_left || $column_right) { ?>
+    <?php $class = 'col-sm-9'; ?>
+    <?php } else { ?>
+    <?php $class = 'col-sm-12'; ?>
+    <?php } ?>
+    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
+      <h1><?php echo $heading_title; ?></h1>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default"> 
+          <div class="panel-heading">
+            <h4 class="panel-title"><?php echo $text_checkout_option; ?></h4>
+          </div>
+          <div class="panel-collapse collapse" id="collapse-checkout-option">
+            <div class="panel-body"></div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+            
+          <div class="panel-heading">
+{*            <h4 class="panel-title"><?php echo $text_checkout_nearest_store; ?></h4>*}
+          </div>
+          <div class="panel-collapse collapse" id="collapse-nearest-store">
+            <div class="panel-body"></div>
+          </div>
+        </div> 
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><?php echo $text_checkout_confirm; ?></h4>
+          </div>
+          <div class="panel-collapse collapse" id="collapse-checkout-confirm">
+            <div class="panel-body"></div>
+          </div>
+        </div>
+      </div>
+      <?php echo $content_bottom; ?></div>
+    <?php echo $column_right; ?></div>
+</div>
+<script type="text/javascript"><!--
+
+$(document).ready(function() {
+    $.ajax({
+        url: 'index.php?route=checkout/login',
+        dataType: 'html',
+        success: function(html) {
+            
+            $('#collapse-checkout-option .panel-body').html(html);
+            $('#collapse-checkout-option').parent().find('.panel-heading .panel-title').html('<a href="#collapse-checkout-option" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle"><?php echo $text_checkout_option; ?> <i class="fa fa-caret-down"></i></a>');
+            $('a[href=\'#collapse-checkout-option\']').trigger('click');
+        
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+        }
+    });
+});
+
+
+// Checkout
+$(document).delegate('#button-account', 'click', function() {
+   $.ajax({
+        url: 'index.php?route=checkout/nearest_store/check',
+        type: 'post',
+        data: $('#collapse-checkout-option input[type=\'hidden\']'),
+        dataType: 'json',
+        success: function(json) {
+          console.log(json);
+            $('.alert, .text-danger').remove();
+
+            if (json['redirect']) {
+                location = json['redirect'];
+            } else if (json['error']) {
+                if (json['error']['warning']) {
+                    $('#collapse-checkout-option .panel-body').prepend('<div class="alert alert-warning">' + json['error']['warning'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+                }
+                    // Highlight any found errors
+                    $('.text-danger').parent().addClass('has-error');
+            } else {    
+                $.ajax({
+                    url: 'index.php?route=checkout/nearest_store',
+                    type: 'post',
+                    data: $('#collapse-checkout-option input[type=\'hidden\']'),
+                    dataType: 'html',
+                    success: function(html) {
+
+                        $('#collapse-nearest-store .panel-body').html(html);
+
+                        $('#collapse-nearest-store').parent().find('.panel-heading .panel-title').html('<a href="#collapse-nearest-store" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle"><?php echo $text_checkout_nearest_store; ?> <i class="fa fa-caret-down"></i></a>');
+
+                        $('a[href=\'#collapse-nearest-store\']').trigger('click');     
+                    },
+                    error: function(xhr, ajaxOptions, thrownError) {
+                        alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                    }
+                }); 
+                
+            }
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+        }
+    });                 
+});
+
+
+$(document).delegate('#button-choose-store', 'click', function() {
+
+   $.ajax({
+        url: 'index.php?route=checkout/nearest_store/save',
+        type: 'post',
+        data: $('#collapse-nearest-store input[type=\'radio\']:checked'),
+        dataType: 'json',
+        success: function(json) {
+          
+            $('.alert, .text-danger').remove();
+
+            if (json['redirect']) {
+                location = json['redirect'];
+            } else if (json['error']) {
+                if (json['error']['warning']) {
+                    $('#collapse-nearest-store .panel-body').prepend('<div class="alert alert-warning">' + json['error']['warning'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+                }
+                    // Highlight any found errors
+                    $('.text-danger').parent().addClass('has-error');
+            } else {
+  
+                $.ajax({
+                    url: 'index.php?route=checkout/confirm',
+                    dataType: 'html',
+                    data: $('#collapse-checkout-option input[type=\'hidden\']'),
+                    type: 'post',
+                    success: function(html) {
+                       
+                       $('#collapse-checkout-confirm .panel-body').html(html);
+
+                       $('#collapse-checkout-confirm').parent().find('.panel-heading .panel-title').html('<a href="#collapse-checkout-confirm" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle"><?php echo $text_checkout_confirm; ?> <i class="fa fa-caret-down"></i></a>');
+			
+                       $('a[href=\'#collapse-checkout-confirm\']').trigger('click'); 
+                       
+                       
+                    $.ajax({
+                        url: 'index.php?route=checkout/confirm/save',
+                        type: 'post',
+                        data: $('#collapse-nearest-store input[type=\'radio\']:checked'),
+                        dataType: 'json',
+
+                        success: function(json) {
+                     
+                            $('.alert, .text-danger').remove();
+
+                            if (json['redirect']) {
+                                location = json['redirect'];
+                            } else if (json['error']) {
+                                if (json['error']['warning']) {
+                                    $('#collapse-checkout-confirm .panel-body').prepend('<div class="alert alert-warning">' + json['error']['warning'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+                                }
+
+                                    // Highlight any found errors
+                                    $('.text-danger').parent().addClass('has-error');
+                            } 
+                        },
+                        error: function(xhr, ajaxOptions, thrownError) {
+                            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                        }
+                    });                       
+
+                       
+		    },
+                    error: function(xhr, ajaxOptions, thrownError) {
+                        alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                    }
+                });   
+         
+            }
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+        }
+    });                
+  
+});
+
+$(document).delegate('#button-confirm-order', 'click', function() {
+    //location.href = "http://store3.artiszone.com";
+    $.ajax({
+        url: 'index.php?route=checkout/confirm/save',
+        type: 'post',
+        data: $('#collapse-nearest-store input[type=\'radio\']:checked'),
+        dataType: 'json',
+
+        success: function(json) {
+        
+            $('.alert, .text-danger').remove();
+
+            if (json['redirect']) {
+                location = json['redirect'];
+            } else if (json['error']) {
+                if (json['error']['warning']) {
+                    $('#collapse-checkout-confirm .panel-body').prepend('<div class="alert alert-warning">' + json['error']['warning'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+                }
+
+                    // Highlight any found errors
+                    $('.text-danger').parent().addClass('has-error');
+            } else {
+  
+                    window.open(json['redirectToStore'], '_blank');
+         
+            }
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+        }
+    });                    
+});
+
+function removeCart(key){
+        $.ajax({
+                url: 'index.php?route=checkout/cart/remove',
+                type: 'post',
+                data: 'key=' + key,
+                dataType: 'json',
+                beforeSend: function() {
+                        $('#cart > button').button('loading');
+                },
+                complete: function() {
+                        $('#cart > button').button('reset');
+                },			
+                success: function(json) {
+                        // Need to set timeout otherwise it wont update the total
+                        setTimeout(function () {
+                                $('#cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
+                        }, 100);
+
+                    $.ajax({
+                         url: 'index.php?route=checkout/confirm',
+                         dataType: 'html',
+                         data: $('#collapse-checkout-option input[type=\'hidden\']'),
+                         type: 'post',
+                         success: function(html) {
+                            setTimeout(function () {
+                                $('#collapse-checkout-confirm .panel-body').html(html);
+
+                                $('#collapse-checkout-confirm').parent().find('.panel-heading .panel-title').html('<a href="#collapse-checkout-confirm" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle"><?php echo $text_checkout_confirm; ?> <i class="fa fa-caret-down"></i></a>');
+
+                                $('a[href=\'#collapse-checkout-confirm\']').trigger('click'); 
+                            }, 500);
+                         }
+                    });
+
+                }
+        });
+        $('a[href=\'#collapse-checkout-confirm\']').trigger('click'); 
+}
+
+</script>
+<?php echo $footer; ?>

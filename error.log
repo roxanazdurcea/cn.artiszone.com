@@ -1,0 +1,213 @@
+2015-10-19 12:40:21 - PHP Notice:  Undefined variable: text_checkout_nearest_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 79
+2015-10-19 18:24:47 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-19 18:24:47 - PHP Notice:  Undefined variable: text_select in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 130
+2015-10-19 18:24:47 - PHP Notice:  Undefined variable: zone_id in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 136
+2015-10-19 18:24:47 - PHP Notice:  Undefined variable: text_none in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 143
+2015-10-19 18:24:55 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-19 18:24:55 - PHP Notice:  Undefined variable: text_select in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 130
+2015-10-19 18:24:55 - PHP Notice:  Undefined variable: zone_id in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 136
+2015-10-19 18:24:55 - PHP Notice:  Undefined variable: text_none in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 143
+2015-10-19 18:25:03 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-19 18:25:03 - PHP Notice:  Undefined variable: text_select in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 130
+2015-10-19 18:25:03 - PHP Notice:  Undefined variable: zone_id in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 136
+2015-10-19 18:25:03 - PHP Notice:  Undefined variable: text_none in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 143
+2015-10-19 18:26:06 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-19 18:26:44 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-19 18:26:52 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-19 18:27:12 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-19 18:27:14 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 10:45:27 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 10:45:43 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 10:46:35 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 10:51:10 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 10:51:22 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 10:51:28 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:47:20 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:47:22 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:47:23 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:48:33 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:48:34 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:48:53 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:48:54 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:48:55 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:51:40 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 11:51:41 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 12:12:14 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 12:28:54 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 12:29:04 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 13:07:27 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/nearest_store.tpl on line 13
+2015-10-20 16:44:45 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 30
+2015-10-20 17:10:53 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 30
+2015-10-20 17:28:23 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 30
+2015-10-20 17:28:54 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 72
+2015-10-23 13:57:49 - PHP Warning:  Missing argument 1 for Cart::getProducts(), called in /var/www/html/artiszone.com/system/library/cart.php on line 419 and defined in /var/www/html/artiszone.com/system/library/cart.php on line 20
+2015-10-23 13:57:49 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 247
+2015-10-23 13:57:49 - PHP Notice:  Error: Table 'openCartTest.ar_products' doesn't exist<br />Error No: 1146<br />SELECT * FROM `ar_products` `p` JOIN `ar_product_to_store` `ps` ON `ps`.`product_id` = `p`.`product_id`  WHERE ps.store_id = '' and ps.product_id = '28'  in /var/www/html/artiszone.com/system/library/db/mysqli.php on line 41
+2015-10-23 13:58:24 - PHP Notice:  Error: Table 'openCartTest.ar_products' doesn't exist<br />Error No: 1146<br />SELECT * FROM `ar_products` `p` JOIN `ar_product_to_store` `ps` ON `ps`.`product_id` = `p`.`product_id`  WHERE ps.store_id = '0' and ps.product_id = '28'  in /var/www/html/artiszone.com/system/library/db/mysqli.php on line 41
+2015-10-23 14:05:35 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 26
+2015-10-23 14:05:35 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 26
+2015-10-23 14:06:20 - PHP Notice:  Undefined index: image in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 26
+2015-10-23 14:06:20 - PHP Notice:  Undefined index: image in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 26
+2015-10-23 14:06:52 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 26
+2015-10-23 14:06:52 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 26
+2015-10-23 14:18:02 - PHP Notice:  Undefined index: blongs_store_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:18:02 - PHP Notice:  Undefined index: blongs_store_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:19:43 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:19:43 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:22:00 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:22:00 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:23:03 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:23:03 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:34:41 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:34:41 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:36:47 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 14:36:47 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-23 15:46:06 - PHP Notice:  Undefined index: blongs_to_store in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 28
+2015-10-26 11:00:58 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:01:00 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:01:02 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:03:20 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:03:53 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:03:54 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:07:41 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:11:42 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:13:50 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:23:13 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:23:15 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:28:51 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:29:14 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 11:30:08 - PHP Notice:  Undefined variable: all_blongs in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/checkout.tpl on line 845
+2015-10-26 12:57:02 - PHP Notice:  Undefined property: Cart::$selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 256
+2015-10-26 13:00:31 - PHP Warning:  Missing argument 1 for Cart::getProducts(), called in /var/www/html/artiszone.com/system/library/cart.php on line 386 and defined in /var/www/html/artiszone.com/system/library/cart.php on line 30
+2015-10-26 13:00:31 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 256
+2015-10-26 13:17:56 - PHP Warning:  Missing argument 1 for Cart::getProducts(), called in /var/www/html/artiszone.com/system/library/cart.php on line 437 and defined in /var/www/html/artiszone.com/system/library/cart.php on line 30
+2015-10-26 13:17:56 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 31
+2015-10-26 13:22:52 - PHP Warning:  Missing argument 1 for Cart::getProducts(), called in /var/www/html/artiszone.com/system/library/cart.php on line 437 and defined in /var/www/html/artiszone.com/system/library/cart.php on line 30
+2015-10-26 13:22:52 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 31
+2015-10-26 13:29:11 - PHP Warning:  Missing argument 1 for Cart::getProducts(), called in /var/www/html/artiszone.com/system/library/cart.php on line 437 and defined in /var/www/html/artiszone.com/system/library/cart.php on line 30
+2015-10-26 13:29:11 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 31
+2015-10-26 13:36:02 - PHP Warning:  Missing argument 1 for Cart::getProducts(), called in /var/www/html/artiszone.com/system/library/cart.php on line 387 and defined in /var/www/html/artiszone.com/system/library/cart.php on line 30
+2015-10-26 13:36:02 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 31
+2015-10-26 13:36:49 - PHP Warning:  Missing argument 1 for Cart::getProducts(), called in /var/www/html/artiszone.com/system/library/cart.php on line 437 and defined in /var/www/html/artiszone.com/system/library/cart.php on line 30
+2015-10-26 13:36:49 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 31
+2015-10-26 14:20:47 - PHP Notice:  Undefined variable: thisselected_store in /var/www/html/artiszone.com/system/library/cart.php on line 257
+2015-10-26 14:38:02 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:02 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:02 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:02 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:02 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:18 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:18 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:18 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:18 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:18 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:23 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:23 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 259
+2015-10-26 14:38:23 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:23 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-26 14:38:23 - PHP Notice:  Undefined variable: selected_store in /var/www/html/artiszone.com/system/library/cart.php on line 32
+2015-10-28 11:20:39 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-10-28 11:20:39 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-10-28 11:20:39 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-10-28 11:20:39 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-10-29 12:34:56 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:34:56 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:34:58 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:34:58 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:05 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:05 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:05 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:05 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:06 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:06 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:08 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:08 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:45 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:45 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:50 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:37:50 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:38:18 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:38:18 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:39:21 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:39:21 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:39:44 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:39:44 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:39:47 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:39:47 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:39:50 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:39:50 - PHP Notice:  Indirect modification of overloaded property ControllerCommonHeader::$data has no effect in /var/www/html/artiszone.com/catalog/controller/common/header.php on line 159
+2015-10-29 12:41:17 - PHP Notice:  Undefined index: children in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/common/header.tpl on line 151
+2015-10-29 12:41:17 - PHP Notice:  Undefined index: children in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/common/header.tpl on line 151
+2015-10-29 12:41:17 - PHP Notice:  Undefined index: children in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/common/header.tpl on line 151
+2015-10-29 12:41:17 - PHP Notice:  Undefined index: children in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/common/header.tpl on line 151
+2015-10-29 12:41:17 - PHP Notice:  Undefined index: children in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/common/header.tpl on line 151
+2015-10-29 12:41:17 - PHP Notice:  Undefined index: children in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/common/header.tpl on line 151
+2015-10-29 14:20:16 - PHP Notice:  Undefined index: payment_method in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 415
+2015-10-29 14:23:07 - PHP Notice:  Undefined variable: payment in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 63
+2015-10-29 15:31:21 - PHP Notice:  Undefined index: comment in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 253
+2015-10-29 15:32:02 - PHP Notice:  Undefined index: comment in /var/www/html/artiszone.com/catalog/model/checkout/order.php on line 6
+2015-10-30 9:33:55 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 79
+2015-11-03 11:19:21 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-03 11:19:21 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-03 11:19:21 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-03 11:19:21 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-03 11:19:41 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-03 11:19:41 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-03 11:19:41 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-03 11:19:41 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:17 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:17 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:17 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:17 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:17 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:17 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:17 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:17 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:37 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:37 - PHP Warning:  imagecreatetruecolor() expects parameter 2 to be long, string given in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:37 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 94
+2015-11-05 9:54:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 99
+2015-11-05 9:54:37 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:37 - PHP Warning:  imagecreatetruecolor() expects parameter 2 to be long, string given in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:37 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 94
+2015-11-05 9:54:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 99
+2015-11-05 9:54:37 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:37 - PHP Warning:  imagecreatetruecolor() expects parameter 2 to be long, string given in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:37 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 94
+2015-11-05 9:54:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 99
+2015-11-05 9:54:37 - PHP Notice:  A non well formed numeric value encountered in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:37 - PHP Warning:  imagecreatetruecolor() expects parameter 2 to be long, string given in /var/www/html/artiszone.com/system/library/image.php on line 86
+2015-11-05 9:54:37 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 94
+2015-11-05 9:54:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 97
+2015-11-05 9:54:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/html/artiszone.com/system/library/image.php on line 99
+2015-11-06 11:59:18 - PHP Notice:  Undefined variable: button_continue in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 65
+2015-11-06 11:59:18 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 65
+2015-11-06 11:59:19 - PHP Notice:  Undefined variable: button_continue in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 65
+2015-11-06 11:59:19 - PHP Notice:  Undefined variable: text_loading in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 65
+2015-11-06 12:21:02 - PHP Notice:  Undefined variable: button_confirm in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 67
+2015-11-06 12:21:02 - PHP Notice:  Undefined variable: button_confirm in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/checkout/confirm.tpl on line 67
+2015-11-06 12:24:15 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 79
+2015-11-06 12:24:46 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 79
+2015-11-06 12:48:58 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 79
+2015-11-06 12:53:29 - PHP Notice:  Undefined index: payment_store in /var/www/html/artiszone.com/catalog/controller/checkout/nearest_store.php on line 79
+2015-11-06 13:49:50 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 13:49:51 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:08:24 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:08:25 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:09:01 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:09:02 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:45:33 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:45:34 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:51:37 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:51:40 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:52:12 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 17:52:13 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 18:04:17 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 18:04:18 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 18:12:32 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 18:12:33 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 18:53:27 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427
+2015-11-06 18:53:29 - PHP Notice:  Undefined index: redirect in /var/www/html/artiszone.com/catalog/controller/checkout/confirm.php on line 427

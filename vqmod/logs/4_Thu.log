@@ -1,0 +1,44 @@
+---------- Date: 2016-07-28 09:55:30 ~ IP : 81.196.107.209 ----------
+REQUEST URI : /index.php?route=product/category&path=84_89
+MOD DETAILS:
+   modFile   : /var/www/clients/client1/web24/web/vqmod/xml/2.0.1.0-2.0.1.1-nthlevelmenu.vqmod.xml
+   id        : Nth Level Menu
+   version   : 1.4.x and 1.5.x
+   vqmver    : 2.4.0
+   author    : Punit kumar
+
+File Name    : catalog/view/theme/*/template/module/category.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <a href="<?php echo $child['href']; ?>" class="list-group-item">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-07-28 10:06:32 ~ IP : 81.196.107.209 ----------
+REQUEST URI : /index.php?route=product/category&path=84_89_130
+MOD DETAILS:
+   modFile   : /var/www/clients/client1/web24/web/vqmod/xml/2.0.1.0-2.0.1.1-nthlevelmenu.vqmod.xml
+   id        : Nth Level Menu
+   version   : 1.4.x and 1.5.x
+   vqmver    : 2.4.0
+   author    : 
+
+File Name    : catalog/view/theme/*/template/module/category.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <a href="<?php echo $child['href']; ?>" class="list-group-item">&nbsp;&nbsp;&nbsp;- <?php echo $child['name']; ?></a>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-07-28 10:12:47 ~ IP : 81.196.107.209 ----------
+REQUEST URI : /index.php?route=product/category&path=84_89_143
+MOD DETAILS:
+   modFile   : /var/www/clients/client1/web24/web/vqmod/xml/vqmod_menu_category_multi_level.xml
+   id        : Menu - Category Multi Level
+   version   : 1.5.6
+   vqmver    : 2.5.1
+   author    : <a onClick="window.open('http://www.opencart.com/index.php?route=extension/extension&filter_username=frymi');" title="View all OpenCart extension by frymi">frymi</a>
+
+File Name    : catalog/view/theme/artiszone/template/common/header.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $category['children'][$i]['href']; ?>"><?php echo $category['children'][$i]['name']; ?></a></li>
+----------------------------------------------------------------------
+
+
