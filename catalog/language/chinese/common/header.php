@@ -19,3 +19,8 @@ $_['text_currency'] 		= '货币';
 $_['text_items']    		= '%s 个商品 - %s';
 $_['text_welcome']  		= '欢迎光临，您可以<a href="%s">登录</a> 或 <a href="%s">注册一个帐户</a>。';
 $_['text_logged']   		= '您登录为<a href="%s">%s</a> <b>(</b> <a href="%s">退出</a> <b>)</b>';
+
+$_['text_make']    =  'some text here 01';
+$_['text_mobile']    =  'some text here 02';
+$_['text_shirt']    =  'some text here 03';
+$_['text_giveaways']    =  'some text here 04';

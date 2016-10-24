@@ -504,3 +504,15 @@ catalog/language/chinese/total/total.php
 catalog/language/chinese/product/category.php
 catalog/language/chinese/module/category.php
 catalog/language/chinese/module/filter.php
+catalog/language/chinese/checkout/cart.php
+catalog/language/chinese/information/information.php
+catalog/language/chinese/checkout/coupon.php
+catalog/language/chinese/checkout/voucher.php
+catalog/language/chinese/checkout/shipping.php
+admin/controller/module/slideshow.php
+admin/view/template/module/slideshow.tpl
+admin/controller/module/banner.php
+admin/view/template/module/banner.tpl
+catalog/language/chinese/account/login.php
+catalog/language/chinese/module/account.php
+catalog/language/chinese/account/forgotten.php

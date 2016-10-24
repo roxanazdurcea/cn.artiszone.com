@@ -114,13 +114,13 @@
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
                         <!--my menu-->      
-                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Make</a>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $text_make; ?></a>
                             <div class="dropdown-menu">
                                 <div class="dropdown-inner">              
                                     <ul class="list-unstyled">              
-                                        <li><a href="http://artiszone.com/index.php?route=information/information&information_id=7">Mobile Devices</a></li> 
-                                        <li><a href="http://artiszone.com/index.php?route=information/information&information_id=8">T-shirts</a></li>  
-                                        <li><a href="http://artiszone.com/index.php?route=information/information&information_id=9">Giveaways</a></li> 
+                                        <li><a href="http://artiszone.com/index.php?route=information/information&information_id=7"><?php echo $text_mobile; ?></a></li>
+                                        <li><a href="http://artiszone.com/index.php?route=information/information&information_id=8"><?php echo $text_shirt; ?></a></li>
+                                        <li><a href="http://artiszone.com/index.php?route=information/information&information_id=9"><?php echo $text_giveaways; ?></a></li>
                                     </ul>           
                                 </div>
                             </div>

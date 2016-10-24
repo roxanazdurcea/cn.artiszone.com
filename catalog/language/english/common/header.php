@@ -14,3 +14,8 @@ $_['text_logout']        = 'Logout';
 $_['text_checkout']      = 'Checkout';
 $_['text_search']        = 'Search';
 $_['text_all']           = 'Show All';
+
+$_['text_make']    =  'Make';
+$_['text_mobile']    =  'Mobile Devices';
+$_['text_shirt']    =  'T-shirts';
+$_['text_giveaways']    =  'Giveaways';
