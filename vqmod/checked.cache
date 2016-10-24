@@ -491,3 +491,16 @@ admin/controller/localisation/language.php
 admin/language/english/localisation/language.php
 admin/view/template/localisation/language_list.tpl
 admin/view/template/localisation/language_form.tpl
+catalog/language/chinese/chinese.php
+catalog/language/chinese/common/footer.php
+catalog/language/chinese/common/header.php
+catalog/language/chinese/common/language.php
+catalog/language/chinese/common/currency.php
+catalog/language/chinese/common/search.php
+catalog/language/chinese/common/cart.php
+catalog/language/chinese/total/sub_total.php
+catalog/language/chinese/total/credit.php
+catalog/language/chinese/total/total.php
+catalog/language/chinese/product/category.php
+catalog/language/chinese/module/category.php
+catalog/language/chinese/module/filter.php
