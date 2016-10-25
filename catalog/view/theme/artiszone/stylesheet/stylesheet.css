@@ -933,17 +933,15 @@ h2.price {
     min-width: 50px;
 }
 
+/* my css */
+/* my css */
+/* my css */
+/* my css */
+/* my css */
+/* my css */
+/* my css */
+/* my css */
 
-//my css
-//my css
-//my css
-//my css
-//my css
-//my css
-//my css
-//my css
-//my css
-//my css
 .center{
     text-align: center;
     margin: 0 auto;
@@ -1002,8 +1000,12 @@ p{
     background-color: #fff;
 }
 
+.dropdown-menu>li>a:hover{
+    background-color: #eaeaea;
+    color: #666;
+}
 
-// footer
+/* footer */
 footer a {
     color: rgb(95, 95, 95);
     text-decoration: none;
@@ -1023,7 +1025,7 @@ footer{
     background-color: #eef6f7;
     margin-top: 0px;
 }
-// end of footer
+/* end of footer */
 
 footer h5{
     font-family: 'Raleway', Helvetica, Arial, san-serif;
@@ -1278,5 +1280,4 @@ footer{
     }
 }
 
-
-//end of my css
+/* end of my css */

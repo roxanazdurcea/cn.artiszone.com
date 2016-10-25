@@ -9,6 +9,16 @@ class ControllerCommonHome extends Controller {
 			$this->document->addLink(HTTP_SERVER, 'canonical');
 		}
 
+        $this->load->language('common/home');
+        $data['text_want'] = $this->language->get('text_want');
+        $data['text_update'] = $this->language->get('text_update');
+        $data['text_collections'] = $this->language->get('text_collections');
+        $data['text_subscribe'] = $this->language->get('text_subscribe');
+        $data['text_placeholder'] = $this->language->get('text_placeholder');
+        $data['text_join'] = $this->language->get('text_join');
+
+
+
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['column_right'] = $this->load->controller('common/column_right');
 		$data['content_top'] = $this->load->controller('common/content_top');
@@ -23,3 +33,6 @@ class ControllerCommonHome extends Controller {
 		}
 	}
 }
+
+
+

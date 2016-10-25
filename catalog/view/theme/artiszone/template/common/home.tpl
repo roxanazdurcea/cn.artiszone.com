@@ -55,21 +55,21 @@
 
                     <div style='height:400px;'>
                         <div style='padding: 10%'>
-                            <h1 style='text-align: center;'>WANT TO</h1>
-                            <p style='text-align: center;'>stay updated On ArtisZone<br>Collections ?</p>
+                            <h1 style='text-align: center;'><?php echo $text_want; ?></h1>
+                            <p style='text-align: center;'><?php echo $text_update; ?><br><?php echo $text_collections; ?></p>
                             <hr>
-                            <h3 style='text-align: center;'>SUBSCRIBE</h3>
+                            <h3 style='text-align: center;'><?php echo $text_subscribe; ?></h3>
                             <form action="" method="post">
                                 <div class="form-group required">
                                     <!--<label class="col-sm-2 control-label" for="input-firstname">Email:</label>-->
                                     <div class="col-sm-10 col-xs-12" style=" padding-right: 0px; margin-bottom: 5px; padding-left: 0px">
-                                        <input style="border-radius: 0px; height: 45px; background: rgba(255, 255, 255, .5); border: 1px solid #000;" type="email" name="txtemail2" id="txtemail2" value="" placeholder="Enter your email here" class="form-control"  /> 
+                                        <input style="border-radius: 0px; height: 45px; background: rgba(255, 255, 255, .5); border: 1px solid #000;" type="email" name="txtemail2" id="txtemail2" value="" placeholder="<?php echo $text_placeholder; ?>" class="form-control"  />
                                     </div>
                                 </div>
                                 <div class="form-group required">
                                     <!--<label class="col-sm-2 control-label" for="input-firstname">Email:</label>-->
                                     <div class="col-sm-2 col-xs-offset-4 col-xs-4" style=" padding-left: 0px; margin-left: 0px;">
-                                        <button style="background: rgba(255, 255, 255, .5); border: 1px solid #000; color: #000; font-weight: 700; height: 45px;" type="submit" class="btn btn-default btn-lg" onclick="return subscribe();">JOIN</i></button>  
+                                        <button style="background: rgba(255, 255, 255, .5); border: 1px solid #000; color: #000; font-weight: 700; height: 45px;" type="submit" class="btn btn-default btn-lg" onclick="return subscribe();"><?php echo $text_join; ?></i></button>
                                     </div>
                                 </div>
                             </form>

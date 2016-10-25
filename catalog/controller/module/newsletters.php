@@ -12,8 +12,11 @@ class ControllerModuleNewsletters extends Controller {
 		$data['text_index'] = $this->language->get('text_index');
 		
 		$data['brands'] = array();
-		
-		
+
+        $this->load->language('common/home');
+        $data['text_placeholder'] = $this->language->get('text_placeholder');
+        $data['text_join'] = $this->language->get('text_join');
+        $data['text_updates'] = $this->language->get('text_updates');
 		
 		
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/newsletters.tpl')) {

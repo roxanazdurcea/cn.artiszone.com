@@ -378,3 +378,5 @@
 2016-10-24 15:02:56 - PHP Notice:  Undefined variable: text_mobile in /var/www/html/artiszone.com/vqmod/vqcache/vq2-catalog_view_theme_artiszone_template_common_header.tpl on line 121
 2016-10-24 15:02:56 - PHP Notice:  Undefined variable: text_shirt in /var/www/html/artiszone.com/vqmod/vqcache/vq2-catalog_view_theme_artiszone_template_common_header.tpl on line 122
 2016-10-24 15:02:56 - PHP Notice:  Undefined variable: text_giveaways in /var/www/html/artiszone.com/vqmod/vqcache/vq2-catalog_view_theme_artiszone_template_common_header.tpl on line 123
+2016-10-25 9:59:04 - PHP Notice:  Undefined variable: text_placeholder in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/module/newsletters.tpl on line 52
+2016-10-25 9:59:04 - PHP Notice:  Undefined variable: text_join in /var/www/html/artiszone.com/catalog/view/theme/artiszone/template/module/newsletters.tpl on line 58
