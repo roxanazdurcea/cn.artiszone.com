@@ -837,11 +837,15 @@ h2.price {
     display: inline-block;
     float: left;
     /*background-color: #eee;*/
-    color: #888;
+    /* color: #888; */
+    color: #fff;
     line-height: 38px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+}
+.product-thumb .button-group button .fa-heart{
+    color: #fff;
 }
 .product-thumb .button-group button + button {
     width: 20%;
@@ -850,10 +854,11 @@ h2.price {
 .product-thumb .button-group button{
     background-color: transparent;
     border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 .product-thumb .button-group button:hover {
     /*	color: #444;*/
-    color: #888888;
+    color: #fff;
     /*background-color: #ddd;*/
     text-decoration: none;
     cursor: pointer;

@@ -278,7 +278,7 @@
                             if ( count($check_idea) > 1 && isset($check_idea[4]))
                             $parent_id = $check_idea[4];
                             ?>
-                            <a style="margin-bottom: 5px; color: #888888;" id="button-design" class="btn btn-primary btn-lg btn-block" href="index.php?route=tshirtecommerce/designer&product_id=<?php echo $design_product_id; ?>&parent_id=<?php echo $parent_id; ?>"><i class="glyphicon glyphicon-pencil"></i> Custom Your Design</a>
+                            <a style="margin-bottom: 5px; color: #888888;" id="button-design" class="btn btn-primary btn-lg btn-block" href="index.php?route=tshirtecommerce/designer&product_id=<?php echo $design_product_id; ?>&parent_id=<?php echo $parent_id; ?>"><i class="glyphicon glyphicon-pencil"></i> <?php echo $text_custom; ?></a>
                             <?php } ?>
 
 

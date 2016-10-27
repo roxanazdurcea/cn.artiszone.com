@@ -49,3 +49,6 @@ $_['error_name']               = 'Warning: Review Name must be between 3 and 25 
 $_['error_text']               = 'Warning: Review Text must be between 25 and 1000 characters!';
 $_['error_rating']             = 'Warning: Please select a review rating!';
 $_['error_captcha']            = 'Warning: Verification code does not match the image!';
+
+
+$_['text_custom']               = 'Custom Your Design';

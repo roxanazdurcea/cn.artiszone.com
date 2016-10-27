@@ -38,7 +38,7 @@
                 </ul>
             </div>
             <div style="float: left; " class="colFooterwidth col-xs-2">
-                <img class="img-responsive" src="http://artiszone.com/image/catalog/artiszone-images/app/empowered.png">
+                <a href="http://artisjet.com" target="_blank"><img class="img-responsive" src="image/catalog/artiszone-images/app/empowered.png"></a>
             </div>
         </div>
         <br>
@@ -47,28 +47,28 @@
             <div class='iconsWrapper flex-class'>  
                 
              
-                <a href="#"><img class="img-responsive" src="http://artiszone.com/image/catalog/artiszone-images/app/facebook.png" 
-                                 onmouseover="this.src='http://artiszone.com/image/catalog/artiszone-images/app/facebook-hover.png';" 
-                                 onmouseout="this.src='http://artiszone.com/image/catalog/artiszone-images/app/facebook.png';" /></a>&nbsp;
-                <a href="#"><img class="img-responsive" src="http://artiszone.com/image/catalog/artiszone-images/app/twitter.png" 
-                                 onmouseover="this.src='http://artiszone.com/image/catalog/artiszone-images/app/twitter-hover.png';" 
-                                 onmouseout="this.src='http://artiszone.com/image/catalog/artiszone-images/app/twitter.png';" /></a>&nbsp;
-                <a href="#"><img class="img-responsive" src="http://artiszone.com/image/catalog/artiszone-images/app/pinterest.png" 
-                                 onmouseover="this.src='http://artiszone.com/image/catalog/artiszone-images/app/pinterest-hover.png';" 
-                                 onmouseout="this.src='http://artiszone.com/image/catalog/artiszone-images/app/pinterest.png';"/></a>&nbsp;
-                <a href="#"><img class="img-responsive" src="http://artiszone.com/image/catalog/artiszone-images/app/linkedin.png" 
-                                 onmouseover="this.src='http://artiszone.com/image/catalog/artiszone-images/app/linkedin-hover.png';" 
-                                 onmouseout="this.src='http://artiszone.com/image/catalog/artiszone-images/app/linkedin.png';"/></a>&nbsp;
-                <a href="#"><img class="img-responsive" src="http://artiszone.com/image/catalog/artiszone-images/app/youtube.png" 
-                                 onmouseover="this.src='http://artiszone.com/image/catalog/artiszone-images/app/youtube-hover.png';" 
-                                 onmouseout="this.src='http://artiszone.com/image/catalog/artiszone-images/app/youtube.png';"/></a>&nbsp; 
-                <a href="#"><img class="img-responsive" src="http://artiszone.com/image/catalog/artiszone-images/app/instagram.png" 
-                                 onmouseover="this.src='http://artiszone.com/image/catalog/artiszone-images/app/instagram-hover.png';" 
-                                 onmouseout="this.src='http://artiszone.com/image/catalog/artiszone-images/app/instagram.png';"/></a>&nbsp;
+                <a href="#"><img class="img-responsive" src="image/catalog/artiszone-images/app/facebook.png"
+                                 onmouseover="this.src='image/catalog/artiszone-images/app/facebook-hover.png';"
+                                 onmouseout="this.src='image/catalog/artiszone-images/app/facebook.png';" /></a>&nbsp;
+                <a href="#"><img class="img-responsive" src="image/catalog/artiszone-images/app/twitter.png"
+                                 onmouseover="this.src='image/catalog/artiszone-images/app/twitter-hover.png';"
+                                 onmouseout="this.src='image/catalog/artiszone-images/app/twitter.png';" /></a>&nbsp;
+                <a href="#"><img class="img-responsive" src="image/catalog/artiszone-images/app/pinterest.png"
+                                 onmouseover="this.src='image/catalog/artiszone-images/app/pinterest-hover.png';"
+                                 onmouseout="this.src='image/catalog/artiszone-images/app/pinterest.png';"/></a>&nbsp;
+                <a href="#"><img class="img-responsive" src="image/catalog/artiszone-images/app/linkedin.png"
+                                 onmouseover="this.src='image/catalog/artiszone-images/app/linkedin-hover.png';"
+                                 onmouseout="this.src='image/artiszone-images/app/linkedin.png';"/></a>&nbsp;
+                <a href="#"><img class="img-responsive" src="image/catalog/artiszone-images/app/youtube.png"
+                                 onmouseover="this.src='image/catalog/artiszone-images/app/youtube-hover.png';"
+                                 onmouseout="this.src='image/catalog/artiszone-images/app/youtube.png';"/></a>&nbsp;
+                <a href="#"><img class="img-responsive" src="image/catalog/artiszone-images/app/instagram.png"
+                                 onmouseover="this.src='image/catalog/artiszone-images/app/instagram-hover.png';"
+                                 onmouseout="this.src='image/catalog/artiszone-images/app/instagram.png';"/></a>&nbsp;
             </div>                
         </div>
     </div>
-    <img style="width: 100%; height: auto;" class="img-responsive" src="http://artiszone.com/image/catalog/artiszone-images/app/bara.png" />
+    <img style="width: 100%; height: auto;" class="img-responsive" src="image/catalog/artiszone-images/app/bara.png" />
     <br>
     <div class="row" style="margin-left: 0px; margin-right: 0px;">       
         <div style="text-align: center; color: #949292;" class="col-md-12">Copyright <?php echo date("Y"); ?>, BMBC Premium Solutions</div>

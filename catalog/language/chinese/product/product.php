@@ -61,3 +61,6 @@ $_['error_captcha']       = '警告： 验证码与图像提供的验证码不�
 $_['error_upload']        = '上传失败！';
 $_['error_filename']      = '文件名必须在3-64个字节！';
 $_['error_filetype']      = '文件类型不支持！';
+
+
+$_['text_custom']               = '定制您的设计';

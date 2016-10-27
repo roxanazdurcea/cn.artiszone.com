@@ -5,6 +5,11 @@ class ControllerProductProduct extends Controller {
 	public function index() {
 		$this->load->language('product/product');
 
+
+        $data['text_custom'] = $this->language->get('text_custom');
+
+
+
 		$data['breadcrumbs'] = array();
 
 		$data['breadcrumbs'][] = array(
