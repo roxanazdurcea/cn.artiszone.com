@@ -384,3 +384,4 @@
 2016-10-25 12:56:33 - PHP Notice:  Undefined index: cart_id in /var/www/html/artiszone.com/vqmod/vqcache/vq2-catalog_view_theme_artiszone_template_checkout_cart.tpl on line 88
 2016-10-25 12:56:33 - PHP Notice:  Undefined index: cart_id in /var/www/html/artiszone.com/vqmod/vqcache/vq2-catalog_view_theme_artiszone_template_checkout_cart.tpl on line 85
 2016-10-25 12:56:33 - PHP Notice:  Undefined index: cart_id in /var/www/html/artiszone.com/vqmod/vqcache/vq2-catalog_view_theme_artiszone_template_checkout_cart.tpl on line 88
+2016-10-28 6:48:21 - PHP Warning:  unlink(/var/www/html/artiszone.com/system/cache/cache.currency.1477605430): No such file or directory in /var/www/html/artiszone.com/system/library/cache/file.php on line 17

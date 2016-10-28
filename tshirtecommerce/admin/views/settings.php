@@ -21,7 +21,7 @@
   <li><a href="#shop" data-toggle="tab"><?php lang('setting_tab_config'); ?></a></li>
   <li><a href="#language" data-toggle="tab"><?php lang('setting_tab_settings_lang'); ?></a></li>
   <li class="pull-right">
-	<button type="button" onclick="window.location =''" class="btn btn-default"><?php lang('video_tutorial'); ?> <i class="fa fa-youtube-play icon-red"></i></button>
+<!--	<button type="button" onclick="window.location =''" class="btn btn-default">--><?php //lang('video_tutorial'); ?><!-- <i class="fa fa-youtube-play icon-red"></i></button>-->
 	<button type="submit" class="btn btn-primary"><?php lang('save'); ?></button>
 </li>
 </ul>

@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 0);
+session_start();
 /**
  * @author tshirtecommerce - www.tshirtecommerce.com
  * @date: 2015-01-10
@@ -8,13 +11,15 @@
  *
  */
 if ( ! defined('ROOT')) exit('No direct script access allowed');
+require_once('../../system/library/config.php');
 
 class Controllers
 {
 	public $params = array();
 	public $control;
 	public $fun;
-	
+	public $lang;
+
 	public function __construct()
 	{
 		$uri = $_SERVER["REQUEST_URI"];
@@ -31,6 +36,10 @@ class Controllers
 			$params = array('dashboard', 'index');
 		}		
 		$this->params	= $params;
+
+        $lang = ($_SESSION['default_lang'] == "en") ? 'lang_ch.ini' : 'lang_ch.ini';
+
+        $this->lang = $lang;
 	}
 	
 	// load control
@@ -87,7 +96,7 @@ class Controllers
 		}
 		
 		$dg = new dg();		
-		$lang = $dg->lang();
+		$lang = $dg->lang($this->lang);
 		$site_url = $dg->url();
 		$GLOBALS['lang'] = $lang;
 		$GLOBALS['site_url'] = $site_url . 'tshirtecommerce/admin/';		
@@ -134,7 +143,7 @@ class Controllers
 		
 		// call language
 		$dg = new dg();		
-		$lang = $dg->lang();
+		$lang = $dg->lang($this->lang);
 		$site_url = $dg->url();
 		$GLOBALS['lang'] = $lang;
 		$GLOBALS['site_url'] = $site_url . '/tshirtecommerce/admin/';
@@ -173,7 +182,7 @@ class Controllers
 		
 		// call language
 		$dg = new dg();		
-		$lang = $dg->lang();
+		$lang = $dg->lang($this->lang);
 		$site_url = $dg->url();
 		$GLOBALS['lang'] = $lang;
 		$GLOBALS['site_url'] = $site_url . '/tshirtecommerce/admin/';

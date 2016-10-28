@@ -1,4 +1,5 @@
 <?php
+//session_start();
 // Version
 define('VERSION', '2.0.3.1');
 
@@ -127,6 +128,8 @@ $language = new Language($languages[$config->get('config_admin_language')]['dire
 $language->load($languages[$config->get('config_admin_language')]['directory']);
 $registry->set('language', $language);
 
+$_SESSION["default_lang"] = $config->get('config_admin_language');
+
 // Document
 $registry->set('document', new Document());
 
@@ -176,3 +179,4 @@ $controller->dispatch($action, new Action('error/not_found'));
 
 // Output
 $response->output();
+
