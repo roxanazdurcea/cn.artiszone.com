@@ -1,6 +1,6 @@
 <?php
 //Heading
-$_['heading_title'] = '亚马逊支付';
+$_['heading_title'] = '结算逊支付';
 $_['heading_address'] = '请选择一个送货地址';
 $_['heading_payment'] = '请选择付款方式';
 $_['heading_confirm'] = '订单总结';
@@ -10,7 +10,7 @@ $_['text_back'] = '返回';
 $_['text_cart'] = '购物车';
 $_['text_confirm'] = '确认';
 $_['text_continue'] = '继续';
-$_['text_cba'] = '亚马逊支付';
+$_['text_cba'] = '结算逊支付';
 $_['text_enter_coupon'] = '请在此输入您的折扣券代码。如果您没有的话，将其留空。';
 $_['text_coupon'] = '折扣券';
 $_['text_tax_other'] = '税 / 其他手续费';

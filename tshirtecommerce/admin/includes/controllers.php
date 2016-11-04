@@ -20,6 +20,9 @@ class Controllers
 	public $fun;
 	public $lang;
 
+
+
+
 	public function __construct()
 	{
 		$uri = $_SERVER["REQUEST_URI"];
@@ -37,9 +40,9 @@ class Controllers
 		}		
 		$this->params	= $params;
 
-        $lang = ($_SESSION['default_lang'] == "en") ? 'lang_ch.ini' : 'lang_ch.ini';
-
+        $lang = ($_SESSION['default_lang'] == "en") ? 'lang.ini' : 'lang_ch.ini';
         $this->lang = $lang;
+
 	}
 	
 	// load control

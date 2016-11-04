@@ -98,3 +98,7 @@ $_['text_openbay_report_price']        = '价格列表';
 $_['text_openbay_order_import']        = '订单导入';
 $_['text_paypal_manage']               = 'PayPal';
 $_['text_paypal_search']               = '搜寻交易记录';
+$_['text_custom_design']                = 'Custom design';
+$_['text_custom_product_build']        = 'Product build';
+$_['text_custom_settings']             = 'Settings';
+$_['text_custom_update']               = 'Update';

@@ -625,3 +625,6 @@ admin/controller/report/product_purchased.php
 admin/language/english/report/product_purchased.php
 admin/language/chinese/report/product_purchased.php
 admin/view/template/report/product_purchased.tpl
+catalog/language/chinese/product/special.php
+admin/language/chinese/extension/installer.php
+catalog/language/chinese/error/not_found.php

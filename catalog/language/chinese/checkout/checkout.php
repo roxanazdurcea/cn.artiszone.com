@@ -1,10 +1,10 @@
 <?php
 // Heading 
-$_['heading_title']                  = '结账';
+$_['heading_title']                  = '结算';
 
 // Text
 $_['text_cart']                      = '购物车';
-$_['text_checkout_option']           = '第 1 步： 结账选项';
+$_['text_checkout_option']           = '第 1 步： 结算选项';
 $_['text_checkout_account']          = '第 2 步： 账户 &amp; 账单详细';
 $_['text_checkout_payment_address']  = '第 2 步： 账单地址';
 $_['text_checkout_shipping_address'] = '第 3 步： 配送地址';
@@ -14,10 +14,10 @@ $_['text_checkout_confirm']          = '第 6 步： 确认订单';
 $_['text_modify']                    = '更新 &raquo;';
 $_['text_new_customer']              = '新客户';
 $_['text_returning_customer']        = '注册用户';
-$_['text_checkout']                  = '结账选项：';
+$_['text_checkout']                  = '结算选项：';
 $_['text_i_am_returning_customer']   = '我已注册账户';
 $_['text_register']                  = '注册账户';
-$_['text_guest']                     = '直接结账';
+$_['text_guest']                     = '直接结算';
 $_['text_register_account']          = '注册一个账户以便您更快捷地购物， 查看订单状态， 查看采购的历史记录， 和更多的管理项目。';
 $_['text_forgotten']                 = '忘了密码';
 $_['text_your_details']              = '我的个人信息';

@@ -33,6 +33,3 @@ class ControllerCommonHome extends Controller {
 		}
 	}
 }
-
-
-

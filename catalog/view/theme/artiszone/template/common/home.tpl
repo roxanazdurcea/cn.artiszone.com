@@ -98,3 +98,19 @@
 
 <script src="catalog/view/javascript/home.js" type="text/javascript"></script>
 <?php echo $footer; ?>
+
+
+<script>
+    $(document).ready(function () {
+        var lang = $('HTML').attr('lang');
+            if (lang === "en") {
+                $('#slideshow0').css('display','block');
+                $('#slideshow1').css('display','none');
+            }
+            else {
+                $('#slideshow0').css('display','none');
+                $('#slideshow1').css('display','block');
+            }
+
+    });
+</script>

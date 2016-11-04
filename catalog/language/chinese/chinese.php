@@ -1,5 +1,4 @@
 <?php
-
 // Locale
 $_['code']                  = 'cn';
 $_['charset']               = 'utf-8';
@@ -31,7 +30,7 @@ $_['button_cart']           = '加入购物车';
 $_['button_cancel']         = '取消';
 $_['button_compare']        = '对比';
 $_['button_wishlist']       = '收藏';
-$_['button_checkout']       = '去结账';
+$_['button_checkout']       = '结算';
 $_['button_confirm']        = '确认订单';
 $_['button_coupon']         = '使用折扣券';
 $_['button_delete']         = '删除';
@@ -52,7 +51,7 @@ $_['button_shopping']       = '继续购物';
 $_['button_search']         = '搜索';
 $_['button_shipping']       = '配送方式';
 $_['button_submit']         = '提交';
-$_['button_guest']          = '直接购买';
+$_['button_guest']          = '直接结算';
 $_['button_view']           = '查看';
 $_['button_voucher']        = '使用礼品券';
 $_['button_upload']         = '上传文件';

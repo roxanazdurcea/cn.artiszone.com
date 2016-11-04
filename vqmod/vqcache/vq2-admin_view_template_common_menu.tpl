@@ -21,14 +21,18 @@
     </ul>
   </li>
  
-				<li><a class="parent"><img src="https://tshirtecommerce.com/icon.png"/> <span>T-Shirt eCommerce</span></a>
+				<li><a class="parent"><img src="https://tshirtecommerce.com/icon.png"/> <span>Custom design ...</span></a>
 					<ul>
-						<li><a href="<?php echo $designer_build; ?>">Product Build</a></li>						
+						<li><a href="<?php echo $designer_build; ?>">Product Build</a></li>
 						<li><a href="<?php echo $designer_settings; ?>">Settings</a></li>
 						<li><a href="<?php echo $designer_update; ?>">Update</a></li>
 					</ul>
 				</li>
-			
+
+
+
+
+
   <li id="extension"><a class="parent"><i class="fa fa-puzzle-piece fa-fw"></i> <span><?php echo $text_extension; ?></span></a>
     <ul>
       <li><a href="<?php echo $installer; ?>"><?php echo $text_installer; ?></a></li>

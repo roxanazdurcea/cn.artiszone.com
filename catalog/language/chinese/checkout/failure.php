@@ -4,7 +4,7 @@ $_['heading_title'] = '结帐失败！';
 
 // Text
 $_['text_basket']   = '购物车';
-$_['text_checkout'] = '结帐';
+$_['text_checkout'] = '结算';
 $_['text_failure']  = '未能付款';
 $_['text_message']  = '<p>您在处理时有一个错误，订单没有完成。</p>
 

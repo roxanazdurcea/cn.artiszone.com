@@ -3,7 +3,7 @@
 $_['express_text_title']		= '确认订单';
 
 // Text
-$_['text_title']                    = 'PayPal Express结帐';
+$_['text_title']                    = 'PayPal Express 结算';
 $_['button_continue']               = '继续';
 $_['text_cart']                     = '购物车';
 $_['text_shipping_updated']         = '配送服务更新';
